@@ -10,4 +10,4 @@ dependencies = [
 ]
 
 [project.scripts]
-crawli = "src.crawli:app"
+crawli = "crawli:app"
