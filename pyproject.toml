@@ -1,0 +1,13 @@
+[project]
+name = "crawli"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "crawl4ai>=0.4.0",
+    "typer>=0.15.1",
+]
+
+[project.scripts]
+crawli = "src.crawli:app"
